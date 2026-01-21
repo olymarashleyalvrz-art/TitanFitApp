@@ -209,9 +209,9 @@ def main(page: ft.Page):
         expand=True, bgcolor="#0052cc", alignment=ft.alignment.center
     ))
   page.update()
-    import time
-    time.sleep(2)
+
     show_registro()
 
 ft.app(target=main, view=ft.AppView.WEB_BROWSER)
+
 
