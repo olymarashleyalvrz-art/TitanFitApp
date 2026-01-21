@@ -203,12 +203,5 @@ def main(page: ft.Page):
             ], horizontal_alignment="center")
         )
 
-    # Iniciar con Splash
-    page.add(ft.Container(
-        content=ft.Text("⚡\nTITANFIT", size=40, weight="bold", color="white", text_align="center"),
-        expand=True, bgcolor="#0052cc", alignment=ft.alignment.center
-    ))
-    page.update()
-   import flet.fastapi as flet_fastapi
-
+   import flet_fastapi
 app = flet_fastapi.app(main)
