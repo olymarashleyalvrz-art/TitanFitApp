@@ -208,9 +208,10 @@ def main(page: ft.Page):
         content=ft.Text("⚡\nTITANFIT", size=40, weight="bold", color="white", text_align="center"),
         expand=True, bgcolor="#0052cc", alignment=ft.alignment.center
     ))
-    page.update()
+  page.update()
     import time
     time.sleep(2)
     show_registro()
 
 ft.app(target=main, view=ft.AppView.WEB_BROWSER)
+
