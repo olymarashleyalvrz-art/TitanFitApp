@@ -209,8 +209,6 @@ def main(page: ft.Page):
         expand=True, bgcolor="#0052cc", alignment=ft.alignment.center
     ))
     page.update()
-    import time
-    time.sleep(2)
-    show_registro()
+   import flet.fastapi as flet_fastapi
 
-ft.app(target=main, view=ft.AppView.WEB_BROWSER)
+app = flet_fastapi.app(main)
