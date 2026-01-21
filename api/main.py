@@ -1,4 +1,5 @@
 import flet as ft
+import flet_fastapi
 from datetime import datetime
 import calendar
 
@@ -203,5 +204,4 @@ def main(page: ft.Page):
             ], horizontal_alignment="center")
         )
 
-   import flet_fastapi
 app = flet_fastapi.app(main)
